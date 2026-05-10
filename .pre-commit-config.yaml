@@ -11,7 +11,7 @@ repos:
         args: [--autofix, --indent=2, --no-sort-keys]
       - id: mixed-line-ending
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.37.1
+    rev: 0.37.2
     hooks:
       - id: check-renovate
   - repo: https://github.com/google/yamlfmt
