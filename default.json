@@ -19,5 +19,8 @@
   },
   "lockFileMaintenance": {
     "enabled": true
-  }
+  },
+  "gitIgnoredAuthors": [
+    "pr-push[bot] <pr-push[bot]@users.noreply.github.com>"
+  ]
 }
