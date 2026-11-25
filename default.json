@@ -11,6 +11,21 @@
         "npm"
       ],
       "minimumReleaseAge": "7 days"
+    },
+    {
+      "matchPackageNames": [
+        "aiobotocore",
+        "botocore"
+      ],
+      "groupName": "aiobotocore and botocore",
+      "minimumGroupSize": 2
+    },
+    {
+      "matchPackageNames": [
+        "astral-sh/uv",
+        "astral-sh/uv-pre-commit"
+      ],
+      "groupName": "astral-sh/uv"
     }
   ],
   "labels": [
